@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Background Removal</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Background Removal</h1>
+      </div>
+    </header>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+            <p>Now we have an image of the LED display with optimal exposure. We need to remove the background from the pixels to be analyzed.</p>
+            <p><img src="gray.jpg" alt="original image"></p>
+            <p>We could threshold the image to B/W to filter out the relatively dark background.</p>
+            <pre><code>../../script/fuzzythresh -r 10 gray.jpg fuzzythresh.jpg</code></pre>
+            <p><img src="fuzzythresh.jpg" alt="thresholded image"></p>
+            <p>Then we could use the result as a mask to cleanup the original image.</p>
+            <pre><code>composite -compose Multiply fuzzythresh.jpg gray.jpg masked.jpg</code></pre>
+            <p><img src="masked.jpg" alt="clean image"></p>
+            <p>The edge pixels are now all black. We could remove them by trimming the image.</p>
+            <pre><code>convert -trim masked.jpg trimmed.jpg</code></pre>
+            <p><img src="trimmed.jpg" alt="trimmed image"></p>
+            <p>An alternate approach is to use the whiteboard script to identify all the pixels.</p>
+            <pre><code>../../script/whiteboard gray.jpg whiteboard.jpg</code></pre>
+            <p><img src="whiteboard.jpg" alt="whiteboard"></p>
+            <p>Further processing can be used to extract pixel properties such as location and radius.</p>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

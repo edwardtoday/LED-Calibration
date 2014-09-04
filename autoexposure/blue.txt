@@ -1,0 +1,150 @@
+Detecting optimal camera settings...
+Supported ISO:['50', '100', '125', '160', '200', '250', '320', '400', '500', '640', '800', '1000', '1250', '1600', '3200']
+Supported Aperture:['1.2', '1.4', '1.6', '1.8', '2.0', '2.2', '2.5', '2.8', '3.2', '3.5', '4.0', '4.5', '5.0', '5.6', '6.3', '7.1', '8', '9', '10', '11', '13', '14', '16', '18', '20', '22', '25', '29', '32']
+Supported Shutterspeed:['Bulb', '30', '25', '20', '15', '13', '10', '8', '6', '5', '4', '3.2', '2.5', '2', '1.6', '1.3', '1', '0.8', '0.6', '0.5', '0.4', '0.3', '1/4', '1/5', '1/6', '1/8', '1/10', '1/13', '1/15', '1/20', '1/25', '1/30', '1/40', '1/50', '1/60', '1/80', '1/100', '1/125', '1/160', '1/200', '1/250', '1/320', '1/400', '1/500', '1/640', '1/800', '1/1000', '1/1250', '1/1600', '1/2000', '1/2500', '1/3200', '1/4000', '1/5000', '1/6400', '1/8000']
+Supported Image Format:['RAW', 'RAW 2', 'Small Normal JPEG', 'Small Fine JPEG', 'Medium Normal JPEG', 'Medium Fine JPEG', 'Large Normal JPEG', 'Large Fine JPEG', 'RAW + Small Normal JPEG', 'RAW + Small Fine JPEG', 'RAW + Medium Normal JPEG', 'RAW + Medium Fine JPEG', 'RAW + Large Normal JPEG', 'RAW + Large Fine JPEG']
+Setting /main/settings/iso to 50 OK
+Setting /main/settings/imageformat to Small Normal JPEG OK
+Searching in (0, 480)
+240 : Set comb: ('14', '0.3')
+Setting /main/settings/aperture to 14 OK
+Setting /main/settings/shutterspeed to 0.3 OK
+[0.032, 94.247, 95.388, 99.454]
+([0.032, 94.247, 95.388, 99.454], -108.91773754130858, 0.7612730096075482, -0.031498667059371016, -108.1879631987604)
+360 : Set comb: ('5.0', '0.6')
+Setting /main/settings/aperture to 5.0 OK
+Setting /main/settings/shutterspeed to 0.6 OK
+[0.0, 61.007, 92.196, 98.678]
+([0.0, 61.007, 92.196, 98.678], -210.60722081892524, 3.471624779279866, -0.0, -207.13559603964538)
+Searching in (0, 360)
+180 : Set comb: ('5.6', '1/20')
+Setting /main/settings/aperture to 5.6 OK
+Setting /main/settings/shutterspeed to 1/20 OK
+[0.081, 94.236, 95.244, 99.417]
+([0.081, 94.236, 95.244, 99.417], -114.8304452247185, 0.6971392018294805, -0.0778865386570712, -114.21119256154608)
+270 : Set comb: ('6.3', '1/5')
+Setting /main/settings/aperture to 6.3 OK
+Setting /main/settings/shutterspeed to 1/5 OK
+[0.0, 92.563, 94.596, 99.197]
+([0.0, 92.563, 94.596, 99.197], -147.36298605529467, 1.1095522287064443, -0.0, -146.25343382658824)
+Searching in (0, 270)
+135 : Set comb: ('14', '1/15')
+Setting /main/settings/aperture to 14 OK
+Setting /main/settings/shutterspeed to 1/15 OK
+[16.718, 95.643, 97.872, 99.965]
+([16.718, 95.643, 97.872, 99.965], -8.600356679332226, 1.172172491776138, -2.874581071989841, -10.302765259545929)
+202 : Set comb: ('4.0', '1/20')
+Setting /main/settings/aperture to 4.0 OK
+Setting /main/settings/shutterspeed to 1/20 OK
+[0.02, 94.123, 95.189, 99.371]
+([0.02, 94.123, 95.189, 99.371], -121.99158240497778, 0.725614370697441, -0.01980262729617973, -121.2857706615765)
+Searching in (0, 202)
+101 : Set comb: ('14', '1/25')
+Setting /main/settings/aperture to 14 OK
+Setting /main/settings/shutterspeed to 1/25 OK
+[33.885, 95.894, 99.01, 99.983]
+([33.885, 95.894, 99.01, 99.983], -4.2142792666047235, 1.4148818179718032, -3.5520569373911997, -6.35145438602412)
+151 : Set comb: ('5.6', '1/30')
+Setting /main/settings/aperture to 5.6 OK
+Setting /main/settings/shutterspeed to 1/30 OK
+[2.067, 94.758, 95.579, 99.726]
+([2.067, 94.758, 95.579, 99.726], -60.540389287493106, 0.5993858007454697, -1.1206998851321146, -61.06170337187975)
+Searching in (0, 151)
+75 : Set comb: ('4.0', '1/125')
+Setting /main/settings/aperture to 4.0 OK
+Setting /main/settings/shutterspeed to 1/125 OK
+[28.28, 95.628, 98.58, 99.971]
+([28.28, 95.628, 98.58, 99.971], -7.14686421297728, 1.3742217798856209, -3.3769046890931107, -9.14954712218477)
+113 : Set comb: ('3.5', '1/80')
+Setting /main/settings/aperture to 3.5 OK
+Setting /main/settings/shutterspeed to 1/80 OK
+[14.494, 95.321, 97.135, 99.933]
+([14.494, 95.321, 97.135, 99.933], -16.212743079902456, 1.0346069586922, -2.7404528522097107, -17.91858897341997)
+Searching in (0, 113)
+56 : Set comb: ('13', '1/50')
+Setting /main/settings/aperture to 13 OK
+Setting /main/settings/shutterspeed to 1/50 OK
+[62.658, 96.308, 99.431, 99.995]
+([62.658, 96.308, 99.431, 99.995], -1.2468853777586582, 1.4165810537247607, -4.153525004458132, -3.983829328492029)
+84 : Set comb: ('11', '1/40')
+Setting /main/settings/aperture to 11 OK
+Setting /main/settings/shutterspeed to 1/40 OK
+[37.19, 95.91, 99.046, 99.983]
+([37.19, 95.91, 99.046, 99.983], -4.2142792666047235, 1.4197291372061305, -3.6425737012374246, -6.437123830636018)
+Searching in (0, 84)
+42 : Set comb: ('4.0', '1/200')
+Setting /main/settings/aperture to 4.0 OK
+Setting /main/settings/shutterspeed to 1/200 OK
+[53.691, 95.937, 99.195, 99.988]
+([53.691, 95.937, 99.195, 99.988], -2.9821427163185996, 1.4487995664712867, -4.0016991620699205, -5.535042311917233)
+63 : Set comb: ('10', '1/60')
+Setting /main/settings/aperture to 10 OK
+Setting /main/settings/shutterspeed to 1/60 OK
+[42.824, 96.022, 99.234, 99.989]
+([42.824, 96.022, 99.234, 99.989], -2.73498500958257, 1.4379375942717263, -3.7801816125207224, -5.0772290278315655)
+Searching in (42, 84)
+63 is cached
+73 : Set comb: ('3.2', '1/160')
+Setting /main/settings/aperture to 3.2 OK
+Setting /main/settings/shutterspeed to 1/160 OK
+[44.35, 95.809, 98.988, 99.982]
+([44.35, 95.809, 98.988, 99.982], -4.459979532082883, 1.430071983465779, -3.814410176561146, -6.84431772517825)
+Searching in (42, 73)
+57 : Set comb: ('3.2', '1/200')
+Setting /main/settings/aperture to 3.2 OK
+Setting /main/settings/shutterspeed to 1/200 OK
+[53.743, 95.949, 99.2, 99.986]
+([53.743, 95.949, 99.2, 99.986], -3.4757262922468146, 1.447154249376654, -4.002649506641328, -6.031221549511488)
+65 : Set comb: ('4.5', '1/125')
+Setting /main/settings/aperture to 4.5 OK
+Setting /main/settings/shutterspeed to 1/125 OK
+[28.673, 95.66, 98.563, 99.972]
+([28.673, 95.66, 98.563, 99.972], -6.903791758244788, 1.3617454881984794, -3.3902375414258135, -8.932283811472121)
+Searching in (42, 65)
+53 : Set comb: ('5.6', '1/125')
+Setting /main/settings/aperture to 5.6 OK
+Setting /main/settings/shutterspeed to 1/125 OK
+[36.992, 95.722, 98.718, 99.975]
+([36.992, 95.722, 98.718, 99.975], -6.173153147594234, 1.3852938607863095, -3.6373756112468207, -8.425234898054745)
+59 : Set comb: ('8', '1/80')
+Setting /main/settings/aperture to 8 OK
+Setting /main/settings/shutterspeed to 1/80 OK
+[47.382, 95.885, 98.999, 99.983]
+([47.382, 95.885, 98.999, 99.983], -4.2142792666047235, 1.414395791230763, -3.8791278437238765, -6.679011319097837)
+Searching in (53, 65)
+59 is cached
+62 : Set comb: ('5.0', '1/125')
+Setting /main/settings/aperture to 5.0 OK
+Setting /main/settings/shutterspeed to 1/125 OK
+[28.695, 95.635, 98.567, 99.971]
+([28.695, 95.635, 98.567, 99.971], -7.14686421297728, 1.369148202284917, -3.3909786814678236, -9.168694692160187)
+Searching in (53, 62)
+57 is cached
+59 is cached
+Searching in (53, 59)
+56 is cached
+57 is cached
+Searching in (53, 57)
+55 : Set comb: ('11', '1/60')
+Setting /main/settings/aperture to 11 OK
+Setting /main/settings/shutterspeed to 1/60 OK
+[62.818, 96.196, 99.383, 99.992]
+([62.818, 96.196, 99.383, 99.992], -1.992042412293077, 1.431984487037006, -4.156035282220533, -4.716093207476605)
+56 is cached
+Searching in (55, 57)
+56 is cached
+56 is cached
+Searching in (55, 56)
+55 is cached
+55 is cached
+55 : Set comb: ('11', '1/60')
+Setting /main/settings/aperture to 11 OK
+Setting /main/settings/shutterspeed to 1/60 OK
+[62.664, 96.199, 99.386, 99.993]
+([62.664, 96.199, 99.386, 99.993], -1.7439034341075703, 1.431984487037006, -4.153619253684573, -4.465538200755137)
+56 is cached
+57 is cached
+56 : Set comb: ('13', '1/50')
+Setting /main/settings/aperture to 13 OK
+Setting /main/settings/shutterspeed to 1/50 OK
+got correct exposure, continue with aperture=13, shutterspeed=1/50
